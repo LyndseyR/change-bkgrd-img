@@ -1,0 +1,21 @@
+.hero__content {
+  text-align: center;
+  width: 50%;
+  color: #fff;
+  &--title {
+    @extend %title;
+  }
+  &--subtitle {
+    @extend %subtitle;
+  }
+
+  @media #{$breakpoint-mobile}{
+    width: 80%;
+    &--title {
+      font-size: 2rem;
+    }
+    &--subtitle {
+      font-size: .9rem;
+    }
+  }
+}

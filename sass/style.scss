@@ -1,0 +1,13 @@
+//Vendor
+@import "vendor/normalize";
+
+//Base
+@import "base/global";
+@import "base/tools";
+
+//Components
+@import "components/thumbnails";
+@import "components/hero__content";
+
+//Layout
+@import "layout/hero";

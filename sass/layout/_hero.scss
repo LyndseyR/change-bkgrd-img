@@ -1,0 +1,17 @@
+.hero {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, .6),
+      rgba(0, 0, 0, .6)
+    ),
+    url("../images/bkgrd1.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

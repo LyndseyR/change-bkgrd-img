@@ -1,0 +1,16 @@
+// Variables
+$breakpoint-mobile: '(max-width: 568px)';
+
+//Extend
+%title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+%subtitle {
+  padding: 10px 0;
+  font-weight: 300;
+  font-size: 1rem;
+}
